@@ -1,0 +1,48 @@
+894  1241  node --version
+895  1242  docker pull node:20-alpine
+896  1243  cd ..
+897  1244  cd nodeDockerapp
+898  1245  docker build .
+899  1246  cd ..
+900  1247  cd pythonDockerapp
+901  1248  clear
+902  1249  docker build -t my-python-app .
+903  1250  clear
+904  1251  docker build -t my-python-app .
+905  1252  clear
+906  1253  docker image ls
+907  1254  docker rmi node
+908  1255  docker rmi node:20-alpine
+909  1256  clear
+910  1257  docker rmi node:20-alpine
+911  1258  docker image ls
+912  1259  docker run my-python-app
+913  1260  docker run -it my-python-app # -it means interactive terminal coz hume do values input deni hai terminal se 
+914  1261  cd /testapp
+915  1262  cd ..
+916  1263  cd testapp
+917  1264  docker image ls
+918  1265  docker login
+919  1266  docker images
+920  1267  docker push neerajghildiyal/mywebapp:02 . # dot means current dir me hai docker image 
+921  1268  docker push neerajghildiyal/mywebapp:02 
+922  1269  docker images ls 
+923  1270  docker images
+924  1271  docker push neerajghildiyal/mywebapp:02 
+925  1272  docker build -t neerajghildiyal/mywebapp:02 . 
+926  1273  docker images
+927  1274  docker push neerajghildiyal/mywebapp:02 
+928  1275  docker images
+929  1276  docker tag mywebapp:01 myfirstwebapp #changing therepo name of the existing docker image
+930  1277  docker images
+931  1278  docker build -t neerajghildiyal/mywebapp:03 . 
+932  1279  docker images
+933  1280  docker push neerajghildiyal/mywebapp:03 
+934  1281  lsof -i :3000
+935  1282  kill -9 3086
+936  1283  clear
+937  1284  cd /
+938  1285  cd /etc/sudoers
+939  1286  cd /etc/
+940  1287  vi sudoers
+941  1288  vi passwd
